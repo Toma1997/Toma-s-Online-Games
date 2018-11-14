@@ -1,0 +1,150 @@
+body{
+  background-color: #BEE4FA;
+}
+
+#main-page{
+  height:100%;
+  width:1600px;
+  margin:0px auto;
+  background-color:#9DC8E1;
+  padding:0;
+}
+header{
+  width:1600px;
+  height:150px;
+  margin:-5px auto;
+  margin-top: -15px;
+  background-color:#6996B1;
+  border-radius:10px;
+  padding-top:15px;
+}
+#back{
+  background-color:#325F7A;
+  color:white;
+  text-decoration:none;
+  font-size:25px;
+  border-radius: 10px;
+  padding:10px;
+  margin:20px 40px;
+  position: absolute;
+}
+#back:hover{
+  color:#6996B1;
+}
+header h1{
+  color:white;
+  text-shadow: 3px 3px #325F7A;
+  font-size: 34px;
+  margin:40px auto;
+  width:650px;
+}
+section{
+  display: inline-block;
+  width:1400px;
+  height:700px;
+  margin-bottom:160px;
+}
+#myCanvas {
+    background-color: black;
+    display: block;
+    margin: 50px 20px 0px 200px;
+    box-shadow: 10px 10px 10px blue;
+}
+ 
+   #start_game{
+    background-color:#325F7A;
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+    border-radius: 10px;
+    height:100px;
+    width:180px;
+    margin:50px 0px 70px 420px;
+    }
+
+    #reset_game{
+    background-color:#325F7A;
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+    border-radius: 10px;
+    height:100px;
+    width:180px;
+    margin:50px 0px 70px 380px;
+    }
+
+   #Gameover1{
+   display: none;
+   text-align:justify;
+   background-color:rgb(255, 77, 77);
+   width:360px;
+   height:200px;
+   border-radius:5%;
+   border:4px solid red;
+  margin-left:300px;
+   font-weight:bold;
+   position: fixed;
+   font-size:20px;
+   padding:30px;
+}
+#Gameover1 h3{
+  margin-left:20%;
+  margin-top:30px
+}
+#Gameover1 button{
+  display: inline;
+  margin-left:8%;
+  margin-bottom: -20px;
+  margin-top:20px;
+  width:130px;
+  height:40px;
+  font-size:99%;
+
+}
+#Gameover1 p{
+  margin-left:70px;
+}
+#Gameover2{
+   display: none;
+   text-align:justify;
+   background-color:rgb(77, 255, 77);
+   width:360px;
+   height:200px;
+   border-radius:5%;
+   border:4px solid green;
+   margin-left:300px;
+   font-weight:bold;
+   position: fixed;
+   font-size:20px;
+   padding:30px;
+
+
+}
+#Gameover2 h3{
+  margin-left:20%;
+  margin-top:30px
+
+}
+#Gameover2 button{
+  display: inline;
+  margin-left:8%;
+  width:130px;
+  height:40px;
+  margin-top:20px;
+  margin-bottom: -20px;
+  font-size:99%;
+}
+#Gameover2 p{
+  margin-left:70px;
+}
+footer{
+  width:1600px;
+  height:40px;
+  margin-top: 60px;
+  margin-bottom:-60px;
+  padding:40px 0px 30px 0px;
+  background-color:#6996B1;
+  text-align: center;
+  border-radius:10px;
+  color: black;
+}

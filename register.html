@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+	
+		<meta charset="UTF-8" content="HTML,CSS,Javascript, jQuery"/>
+	    <meta name="description" content="Register to play two funny games"/>
+	    <meta name="keywords" content="Toma, Games, Online, Brick, Breaker, Rock, Paper, Scissors, Register "/>
+	    <meta name="author" content="Toma Joksimovic"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <meta name="language" content="english"/>
+
+        <link rel="stylesheet" type="text/css" href="css/register.css"/>
+    	
+    	<script type="text/javascript" src="javascript, jquery/jquery-3.1.1.min.js"></script>
+    	<script src="javascript, jquery/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
+    	<script type="text/javascript" src="javascript, jquery/register.js"></script>
+    	<script type="text/javascript" src="javascript, jquery/register-jQuery.js"></script>
+
+
+	</head>
+
+	<body onload="crvenaBoja(); cookie()">
+		<div id="main-page">
+			<header id="registerH">
+				<a href="index.html" target="_self" id="back">Main Page</a>
+				<h1> Registration</h1>
+			</header>
+
+			<div id="forma">
+				<div id="levo">
+					<p id="Inicijalni"></p>
+						
+						<div class="elementi" id="name">Full Name * <input type="text" id="fullname" name="fullname" onblur="provera()"></div>
+
+						<div class="elementi" id="addr">Address * <input type="text" id="address" name="address" onblur="provera()"></div>
+
+						<div class="elementi" id="cityy">City * <input type="text" id="city" name="city" onblur="provera()"></div>
+
+						<div class="elementi">
+							<div id="State">State * 
+								<select id="selection" onchange="provera()">
+									<option value="0">Please Select</option>
+									<option value="1">USA</option>
+									<option value="2">United Kingdom</option>
+									<option value="3">France</option>
+									<option value="4">Serbia</option>
+									<option value="5">Hungary</option>
+									<option value="6">Egypt</option>
+									<option value="7">China</option>
+									<option value="8">Russia</option>
+									<option value="9">Italy</option>
+									<option value="10">Spain</option>
+								</select>
+							</div>
+						
+						</div>
+					
+				</div>
+				<div id="desno">
+
+					<div class="elementi" id="DtPhone">Mobile Phone +3816_ _ _ _ _ _ _ (_) * <input type="text" id="dtPhone" name="dtPhone" onblur="provera()"/></div>
+
+					<div class="elementi" id="Email">Email * <input type="text" id="email" name="email" onkeyup="provera()"></div>
+					
+					<div class="elementi" id="confEmail"> Confirm Email * <input type="text" id="confemail" name="confemail" onkeyup ="provera();"></div>
+
+					
+					<input type="Submit" id="submit" name="submit" onclick="submit()"/>
+				</div>
+
+			</div>
+			<h2 id="chooseGame"> Choose which game you want to play and then click on one of the windows below!</h2>
+			<section>
+				<a href="BrickBreaker.html" title="BrickBreaker Window" target="_self">
+					<article id="brick-breaker">
+						<h3>Brick Breaker</h3>
+						<img src="assets/brickbreaker.jpg" alt="Brick Breaker" name="BrickBreaker"/>
+						<p> Feel free to get into old adventure with bricks<br>
+						 and fast ball which is trying to escape from your paddle.<br>
+						 Register below and prepare your concentration!</p>
+					</article>
+				</a>
+			
+					<article id="rock-paper-scissors">
+						<a href="rock.paper.scissors.html" title="RockPaperScissors Window" target="_self">
+							<div id="left">
+								<h3>Rock Paper Scissors</h3>
+								<img src="assets/rock-paper-scissors.png" width="200" height="300" alt="Rock Paper Scissors" name="RockPaperScissors"/>
+								<p> This is the great chance to test how lucky you are !<br>
+								 On the other side is great Computer who is trying to<br>
+								 beat you. Register below and prepare your lucky charm!</p>
+							</div>
+						</a>
+						<div id="right">
+							<div id="googlePlay">
+							 <p><ins> You can also see it on a</ins></p> <a id="gp" href="https://play.google.com/store/apps/details?id=rock.paper.scissors.tomajoksimovic" title="Rock Paper Scissors" target="_blank"><img src="assets/play_prism_hlock_2x.png" alt="Rock Paper Scissors on Google Play"/></a>
+						 	</div>
+							 <div id="mob">
+							 	<p><ins>If you have <strong>Android system</strong> ,<br> you can play it on your mobile phone </ins></p>
+							 	<img src="assets/16145334_10208510771586368_1158395097_o.png"  id="mobilepic" alt="rock paper scissors mobile"/>
+							 </div>
+						</div>
+					</article>
+
+		</section>
+			
+			<footer><h3><strong>Copyright &copy Toma Joksimovic 2016201222</strong></h3></footer>
+		</div>
+	
+	</body>
+
+</html>

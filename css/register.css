@@ -1,0 +1,169 @@
+body{
+	background-color: #BEE4FA;
+}
+
+#main-page{
+	height:950px;
+	width:1600px;
+	margin:15px auto;
+	background-color:#9DC8E1;
+}
+#registerH{
+	width:1600px;
+	height:150px;
+	margin:-5px auto;
+	margin-top: -15px;
+	background-color:#6996B1;
+	border-radius:10px;
+	padding-top:15px;
+}
+#registerH h1{
+	color:white;
+	text-shadow: 3px 3px #325F7A;
+	font-size: 50px;
+	margin:20px auto;
+	width:300px;
+}
+
+#registerH a{
+	background-color:  #325F7A;
+	color:white;
+	text-decoration:none;
+	font-size:25px;
+	border-radius: 10px;
+	padding:10px;
+	margin:20px 40px;
+	position: absolute;
+
+}
+#registerH a:hover{
+	color:#6996B1;
+}
+
+#uzvik{
+	color:white;
+	background-color: red;
+	padding:3px 5px;
+	width:10px;
+}
+#forma{
+	display: inline;
+}
+#forma #levo{
+	width:400px;
+	float:left;
+	margin:30px 0px 30px 170px;
+}
+#levo .elementi {
+	float:right;
+	margin:8px;
+}
+#levo .elementi input{
+	width:250px;
+}
+#selection{
+	width:140px;
+	margin-right:113px;
+
+}
+#levo #select #State{
+	float:left;
+	margin:8px;
+
+}
+	
+#levo #select{
+	margin-top:8px;
+	margin-bottom:8px;
+
+}
+
+#forma #desno{
+	width:400px;
+	float:right;
+	margin-top:60px;
+	margin-right: 300px;
+}
+#desno .elementi input{
+	width:250px;
+}
+#desno div:first-child{
+	width:508px;
+}
+
+#desno .elementi {
+	float:right;
+	margin:8px;
+}
+
+#submit{
+	width:140px;
+	height:60px;
+	margin-top:50px;
+	border-radius:10%;
+	background-color: #6996B1;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+footer{
+	width:1600px;
+	height:40px;
+	margin-top:120px;
+	margin-bottom:-60px;
+	padding:40px 0px 30px 0px;
+	background-color:#6996B1;
+	text-align: center;
+	border-radius:10px;
+	color:black;
+}
+article{
+	background-color: white;
+	height:400px;
+	display: inline-block;
+	border-radius:20px;
+	margin:50px 60px;
+	border:3px solid #6996B1;
+}
+#brick-breaker{
+	margin-top: 102px;
+	float:left;
+	text-shadow: 0.4px 0.4px #325F7A;
+	padding:10px 20px 50px 20px;
+	width:580px;
+}
+#rock-paper-scissors{
+	margin-top: 100px;
+	float:right;
+	width: 650px;
+	display: inline-block;
+	text-shadow: 0.4px 0.4px #325F7A;
+	padding:25px 25px 35px 20px;
+}
+#left{
+	float:left;
+	text-align: justify;
+	margin-top:-17px;
+}
+#right{
+	float: right;
+}
+
+section{
+	margin-top:-20px;
+	height:600px;
+	width:1600px;
+}
+#gp img:hover{
+	border:2px solid blue;
+}
+
+#chooseGame{
+	margin-bottom:-40px;
+	margin-left: 50px;
+	font-size:40px;
+	color:white;
+	text-shadow:5px 5px 10px blue;
+}

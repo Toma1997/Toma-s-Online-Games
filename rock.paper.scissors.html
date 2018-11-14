@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Rock-Paper-Scissors</title>
+
+      <meta charset="UTF-8" content="HTML,CSS,Javascript, jQuery"/>
+      <meta name="author" content="Toma Joksimovic"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="language" content="english"/>
+  	   
+  	 <link rel="stylesheet" type="text/css" href="css/rps.css"/>
+
+     <script type="text/javascript" src="javascript, jquery/jquery-3.1.1.min.js"></script>
+     <script src="javascript, jquery/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
+     <script src="javascript, jquery/rps-jQuery.js" type="text/javascript" charset="utf-8"></script>
+  
+  </head>
+  <body>
+    <div id="main-page">
+        <header id="rpsH">
+            <a href="index.html" target="_self" id="back">Main Page</a>
+      
+          <div>
+              <p id="in">
+                This is the Rock-Paper-Scissors game.<br>
+                Feel free to play against the computer!!!
+              </p>
+          </div>
+          </header>
+          <section>
+            
+            <h2 id="chooseB"><ins>Choose:</ins></h2>
+            
+            <div id="buttons">
+
+                <button id="Paper" class="buttonclick">
+                    <img class="rps" title="Paper" src="assets/14-snowflakes-lay-paper-copy.jpg"/>
+                </button>
+
+                <button  id="Rock" class="buttonclick">
+                    <img  class="rps" title="Rock" src="assets/A_Rock!.gif"/>
+                </button>	
+
+                <button id="Scissors"  class="buttonclick">
+                    <img class="rps" title="Scissors" src="assets/scissors.jpg"/>
+                </button>
+
+                <div id="last_div">
+                  <button onclick="resetGame();" id="New_game">
+                      <p>New game</p>
+                  </button>
+                </div>
+            
+            </div> 
+
+
+            <div id="countainer">
+         
+                  <div>
+                      <ins>You:</ins> <span  id="user-choice"></span>
+                  </div>
+                  
+                  <div>
+                      <ins>Computer:</ins>  <span  id="computer-choice"></span>
+                  </div>
+                  
+                  <div>
+                      <ins>Result:</ins> <span id="result"></span>
+                  </div>
+                  
+                  <div>
+                      <ins> Your Lifes:</ins> <span id="your-lifes"></span>
+                  </div>
+                  
+                  <div>
+                      <ins> Computer Lifes:</ins> <span id="comp-lifes"></span>
+                  </div>
+
+                <table>
+                    <thead>
+                        
+                        <th colspan="3">
+                            <div>
+                                <ins>Score:</ins> <span id="score"></span>
+                            </div>
+                        </th>
+                    
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td></td>
+                            <td class="tdcolor">You</td>
+                            <td class="tdcolor">Computer</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="tdcolor">Wins</td>
+                            <td><span id="your-wins"></span></td>
+                            <td><span id="comp-wins"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolor">Tossed-up</td>
+                            <td colspan="2"><span id="tossed-up"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="Gameover1" data-toggle="modal" data-target="#myModal">
+                <h3>GAME IS OVER !</h3>
+                <p>Unfortunately Computer beats you!<br> Play again or exit game.</p>
+                
+                <button onclick="resetGame(); hideModals();" id="Play_again">
+                    <p>Play again</p>
+                </button>
+                
+                <button onclick="exit();" id="Exit_game">
+                    <p>Main Page</p>
+                </button>
+            </div>
+
+            <div id="Gameover2" data-toggle="modal" data-target="#myModal">
+                <h3>GAME IS OVER !</h3>
+                <p>Congratulations you beat the Computer!<br> Play again or exit game.</p>
+                
+                <button onclick="resetGame(); hideModals()" id="Play_again">
+                    <p>Play again</p>
+                </button>
+                
+                <button onclick="exit();" id="Exit_game">
+                    <p>Main Page</p>
+                </button>
+            </div>
+          </section>
+          <footer><h3><strong>Copyright &copy Toma Joksimovic 2016201222</strong></h3></footer>
+      </div>
+
+        <script type="text/javascript" src="javascript, jquery/rps.js"></script>
+        
+    </body>
+</html>
